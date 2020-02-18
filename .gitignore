@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/macos,python,jupyternotebooks
-# Edit at https://www.gitignore.io/?templates=macos,python,jupyternotebooks
+# Created by https://www.gitignore.io/api/vim,macos,python,jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=vim,macos,python,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -149,4 +149,29 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/macos,python,jupyternotebooks
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+
+# Auto-generated tag files
+tags
+
+# Persistent undo
+[._]*.un~
+
+# Coc configuration directory
+.vim
+
+# End of https://www.gitignore.io/api/vim,macos,python,jupyternotebooks
